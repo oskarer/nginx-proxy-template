@@ -15,6 +15,6 @@ COPY nginx.conf /etc/nginx/nginx.conf
 
 WORKDIR /etc/nginx
 
-EXPOSE 443
+EXPOSE 1337
 
 CMD ["nginx", "-g", "daemon off;"]
